@@ -1,0 +1,66 @@
+---
+title: "r4ds7"
+author: "lianrui"
+date: "14 December 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Data wrangling: 
+        tibble: variat of df, construction. 
+        getting data into r: plan-text and others
+        tidy data: principles, process. 
+        multiple interelated datasets
+        regular expression to manipulate strings
+        categorical data: variable has a fixed set of possible values, nonalphabetical ordering of a string
+        key tools for dates and date-times. 
+
+# Chapter 8. Data import with readr
+Introduction
+Getting started
+        compared to base R
+Exercises 1
+        strings
+        factors
+        dates, date-times and times
+Exercises 2
+Parsing a file
+        problems
+        strategy
+        Other strategies
+Writing to a file
+Other types of data
+JSON, xml2: https://jennybc.github.io/purrr-tutorial/.
+
+
+Introduction
+```{r}
+library(tidyverse)
+```
+
+Getting started
+read_csv() 
+read_csv2()
+read_tsv()
+read_delim()
+```{r}
+
+```
+
+
+        compared to base R
+Exercises 1
+        strings
+        factors
+        dates, date-times and times
+Exercises 2
+Parsing a file
+        problems
+        strategy
+        Other strategies
+Writing to a file
+Other types of data
+JSON, xml2: https://jennybc.github.io/purrr-tutorial/.
